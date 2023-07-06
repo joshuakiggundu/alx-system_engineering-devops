@@ -1,0 +1,7 @@
+#!/bin/bash
+subdirectories=find . -type d
+for dir in $subdirectories; do
+    chmod o+x "$dir"
+    chmod g+x "$dir"
+    chmod u+x "$dir"
+done
