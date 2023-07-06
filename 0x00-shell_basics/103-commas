@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a1F | sed -E '/^\.$|^\.\.$/d' | awk '{ printf $0"," } END { print "" }' | sort -k1.2,1.2 -k1.1,1.1n | sed 's|/$|/|'
+ls -amvp 
