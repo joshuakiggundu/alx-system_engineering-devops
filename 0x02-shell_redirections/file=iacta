@@ -1,3 +1,0 @@
-file="iacta"
-line_number=ne_number=3
-head -n "$line_number" "$file" | tail -n 1
