@@ -1,2 +1,2 @@
 #!/bin/bash
-file =  /etc/passwd; cat '$file '
+file=/etc/passwd; cat'$file'
