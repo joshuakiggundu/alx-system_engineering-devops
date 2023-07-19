@@ -3,7 +3,7 @@
 /**
  * main -prrint numbers in base ten
  *
- * Return:  always
+ * Return:  always (0)
  *
  */
 int main(void)
